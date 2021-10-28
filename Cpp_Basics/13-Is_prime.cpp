@@ -8,16 +8,16 @@ int main(){
     cout << "Write the number: \n";
     cin >> number;
 
+    if(number <= 1){
+        cout << "Not prime.\n";
+        exit(-1);
+    }
     while(i < number){
         if(number % i == 0){
             cout << "Not prime.\n";
             exit(-1);
         }
         i++;
-    }
-    if(number == 0 || number == 1){
-        cout << "Not prime.\n";
-        exit(-1);
     }
     cout << "Prime.\n";
 }
