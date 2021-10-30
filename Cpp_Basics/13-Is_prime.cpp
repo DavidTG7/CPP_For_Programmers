@@ -14,10 +14,10 @@ int main(){
     }
     while(i < number){
         if(number % i == 0){
-            cout << "Not prime.\n";
+            cout << "Not prime." << endl;
             exit(-1);
         }
         i++;
     }
-    cout << "Prime.\n";
+    cout << "Prime." << endl;
 }
