@@ -35,7 +35,7 @@ int main(){
 
     result = test(number1, operate, number2);
     
-    cout << "Result:\n" << number1 << " " << operate << " " << number2 << " = " << result << endl;
+    cout << "Result:\n\n" << number1 << " " << operate << " " << number2 << " = " << result << endl;
 
     return 0;
 }
