@@ -9,3 +9,33 @@ Subtraction
 Multiplication
 Division */
 
+double test(double number1, char operate, double number2) {
+    double result;
+
+    if (operate == '+')
+        result = number1 + number2;
+    else if (operate == '-')
+        result = number1 - number2;
+    else if (operate == '*')
+        result = number1 * number2;
+    else if (operate == '/')
+        result = number1 / number2;
+    else
+        result = -1;
+    
+    return result;
+}
+
+int main(){
+    double number1, number2, result;
+    char operate;
+
+    cout << "Write the first number, the operator and the second number to get the result:\n";
+    cin >> number1 >> operate >> number2;
+
+    result = test(number1, operate, number2);
+    
+    cout << "Result:\n" << number1 << " " << operate << " " << number2 << " = " << result << endl;
+
+    return 0;
+}
