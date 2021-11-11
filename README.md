@@ -3,7 +3,7 @@
 	<img src="https://education.github.com/assets/pack/logo-educative-0ff5bf24988bb845b0e2aa256b2065e5fd1339eb2e566de483a9e0cbc916e96e.jpg" style="display: block; margin: 0 auto;"> </a>
 </html>
 
-Path from www.educative.io to learn C++.
+**Path from www.educative.io to learn C++.**
 
 This learning path includes:
 	1. C++ Basics.
@@ -13,7 +13,7 @@ This learning path includes:
 	5. Concurrency with Modern C++.
 	6. Embedded Programming.
 
-Learning Objectives:
+**Learning Objectives:**
 
 1. Learn the basics of C++, from the syntax upward.
 
